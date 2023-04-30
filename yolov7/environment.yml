@@ -1,0 +1,94 @@
+name: pqw-20230430
+channels:
+  - conda-forge
+  - pytorch
+  - fastchan  
+dependencies:
+  # Environment
+  - python=3.10.6
+  - spyder
+  - pip
+
+  # Non-Python utils
+  - graphviz
+
+  # ML
+  - cudatoolkit=11.6
+  - cudnn=8.4
+  - pytorch=1.12.1
+  - torchvision=0.13.1
+  - torchaudio=0.12.1
+  - torchtext=0.13.1
+  - fastai=2.7.9
+  - opencv=4.6.0
+  - sympy
+  - cmake
+  - dlib
+
+  - pip:
+    # Core
+    - attrs
+    - glog
+    - jsonlines
+    - GitPython
+    - multipledispatch
+
+    # Environment
+    - ipython
+    - notebook
+    - jupyterlab
+    - jupyterlab_execute_time
+    - tqdm
+    - ipywidgets
+    - jupyterlab_theme_solarized_dark
+
+    # Scraping
+    - requests
+    - lxml
+    - html5lib 
+    - beautifulsoup4
+
+    # Numerical
+    - numpy
+    - pandas
+    - scipy
+    - scikit-learn
+    - matplotlib
+    - seaborn
+    - dask
+    - taichi
+    - cython
+    - numba
+
+    # Data
+    - SQLAlchemy
+    - fastparquet
+    - pyarrow
+
+    # Excel
+    - xlwt
+    - xlwings
+    - xlrd
+
+    - boto3
+    - cryptography
+
+    # ML    
+    - imutils
+    - pytesseract
+    - chainer
+    - Pillow
+    
+    # Chess
+    - chess
+
+    # For fastai book
+    - fastbook
+    - dtreeviz
+    - kaggle
+    - treeinterpreter
+    - waterfallcharts
+
+    # UI
+    - PyQt6
+    - pyinstaller
